@@ -1,1 +1,833 @@
+.navbar{
+    margin-top: 20px;
+}
 
+.navbar-nav .nav-link{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0C1B4D;
+}
+
+.navbar-nav .nav-link.active{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #0C1B4D;
+}
+
+.btn-download{
+    background: #4A72FF;
+    box-shadow: 0px 30px 60px rgba(74, 114, 255, 0.25);
+    border-radius: 6px;
+    width: 129px;
+    height: 43px;
+    border: none;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #F4F7FF;
+}
+
+body{
+    background: #F4F7FF;
+}
+
+#hero h2{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+/* identical to box height */
+    letter-spacing: 0.1em;
+
+/* Primary */
+    color: #4A72FF;
+}
+
+#hero{
+    margin-top: 75px;
+}
+
+#hero h1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 44px;
+
+/* Dark */
+    color: #0C1B4D;
+}
+
+#hero p{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+/* or 167% */
+
+/* Dark Light */
+    color: rgba(12, 27, 77, 0.6);
+}
+
+.btn-register{
+    width: 188px;
+    height: 53px;
+    left: 0px;
+    top: 0px;
+
+/* Primary */
+    background: #4A72FF;
+    box-shadow: 0px 30px 60px rgba(74, 114, 255, 0.25);
+    border-radius: 6px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+/* identical to box height */
+
+    color: #F4F7FF;
+    border: none;
+}
+
+.btn-learn{
+    width: 177px;
+    height: 53px;
+    left: 204px;
+    top: 0px;
+
+/* Primary Light */
+    background: rgba(74, 114, 255, 0.05);
+    border-radius: 6px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+/* identical to box height */
+
+/* Primary */
+    color: #4A72FF;
+    border: none;
+
+}
+
+#hero .data-user h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    /* Dark */
+    color: #0C1B4D;
+}
+
+#hero .data-user h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    
+    /* Dark Light */
+    color: rgba(12, 27, 77, 0.6);
+}
+
+#hero .patners .gbr-patners{
+    padding: 60px 80px ;
+    background: rgba(74, 114, 255, 0.05);
+    border-radius: 15px;
+    margin-top: 135px;
+}
+
+#reason{
+    margin-top: 135px;
+}
+
+#reason h1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    
+    /* Dark */
+    color: #0C1B4D;
+}
+
+#reason h2{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.1em;
+    
+    /* Dark */
+    color: #0C1B4D;
+}
+
+#reason p{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: center;
+    
+    /* Dark Light */
+    color: rgba(12, 27, 77, 0.6);
+}
+
+#reason .ket-reason h1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+    text-align: center;
+    
+    /* Dark */
+    color: #0C1B4D;
+}
+
+#reason .ket-reason p{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: center;
+    
+    /* Dark Light */
+    color: rgba(12, 27, 77, 0.6);
+    
+}
+
+#teknologi{
+    margin-top: 100px;
+}
+#teknologi h1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+#teknologi h2{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+}
+
+#teknologi p{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    
+    /* Dark Light */
+    color: rgba(12, 27, 77, 0.6);
+}
+
+
+#teknologi .ket-tambahan h2{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+#teknologi .ket-tambahan p{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    
+    /* Dark Light */
+    color: rgba(12, 27, 77, 0.6);
+}
+
+#download .container{
+    background: #4A72FF;
+    /* Shadow Primary */
+    box-shadow: 0px 30px 60px rgba(74, 114, 255, 0.25);
+    border-radius: 20px;
+    color: #F4F7FF;
+}
+#download h1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    /* or 150% */
+    
+
+}
+
+#download h2{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    
+
+    
+}
+
+#download ul{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */  
+}
+
+#download .kolom1{
+    margin-left: 80px;
+}
+
+.accordion-item {
+    border: none;
+    background-color: #4A72FF;
+    color: white;
+}
+
+.accordion-item .accordion-header .accordion-button {
+    background-color: #F4F7FF;
+}
+
+li {
+    list-style: none;
+    color: rgba(12, 27, 77, 0.6);
+}
+
+#FAQ h3 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+}
+
+#FAQ h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+#FAQ .header p {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    
+    /* Dark Light */
+    color: rgba(12, 27, 77, 0.6);
+}
+
+footer p {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    
+    /* Dark Light */
+    color: rgba(12, 27, 77, 0.6);
+}
+
+footer .container {
+    background: rgba(74, 114, 255, 0.05);
+    border-radius: 6px 6px 0px 0px;
+}
+
+footer .container .row {
+    padding: 100px 0px 80px 0px
+}
+
+footer {
+    margin-top: 200px;
+}
+
+#FAQ .accordion {
+    margin-top: 200px;
+}
+
+#FAQ {
+    margin-top: 200px;
+}
+
+@media screen and (max-width:820px){
+    .navbar .container .navbar-brand img{
+        width: 30px;
+        
+    }
+    #hero .container .col-6.hero-img img{
+        width: 100%;
+    }
+
+    #hero h2{
+        font-size: 12px;
+    }
+    #hero h1 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    #hero p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .btn-register{
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .btn-learn{
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    #hero .data-user img{
+        width: 15px;
+    }
+    #hero .data-user h2{
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    #hero .data-user h1{
+        font-size: 13px;
+        
+    }
+    #hero .patners .gbr-patners img{
+        width: 70px;
+    }
+    #hero .patners .gbr-patners{
+        padding: 20px 40px ;
+        margin-top: 40px;
+    }
+    #reason{
+        margin-top: 80px;
+    }
+    #reason h1{
+        font-size: 22px;
+    }
+    
+    #reason h2{
+        font-size: 13px;
+    }
+    
+    #reason p{
+        font-size: 14px;
+    }
+    
+    #reason .ket-reason h1{
+        font-size: 18px;
+    }
+    
+
+    #reason .ket-reason img{
+        height: 90px;
+    }
+
+    #reason .ket-reason p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    #teknologi {
+        margin-top: 50px;
+    }
+    #teknologi h1{
+        font-size: 22px;
+        line-height: 40px;
+    }
+    
+    #teknologi h2{
+        font-size: 13px;
+    }
+    
+    #teknologi p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+    
+    #teknologi .ket-tambahan h2{
+        font-size: 16px;
+    }
+    
+    #teknologi .ket-tambahan p{
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 5px;
+    }
+
+    #teknologi .ket-tambahan img {
+        width: 40px;
+    }
+
+    #download {
+        margin-top: 30px;
+    }
+
+    #download h1{
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    #download .col-5 img {
+        display: none;
+    }
+
+    #FAQ .accordion {
+        margin-top: 70px;
+    }
+    
+    #FAQ {
+        margin-top: 70px;
+    }
+
+    #FAQ .accordion .accordion-item h5{
+        font-size: 15px;
+    }
+    footer p {
+        font-size: 12px;
+    }
+    
+    footer .container .row {
+        padding: 80px 0px 80px 0px
+    }
+    
+    footer {
+        margin-top: 100px;
+    }
+
+    footer li {
+        font-size: 12px;
+    }
+    
+    footer .col-2 img{
+        width: 20px;
+    }
+    
+}
+
+@media screen and (max-width:767px){
+    #hero .container .col-6.hero-img{
+        display: none;
+    }
+
+    #hero h2{
+        font-size: 12px;
+    }
+    #hero h1 {
+        font-size: 27px;
+        line-height: 35px;
+    }
+    #hero p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    #hero .patners .gbr-patners img{
+        width: 70px;
+    }
+    #hero .patners .gbr-patners{
+        padding: 20px 40px ;
+        margin-top: 40px;
+    }
+    #reason{
+        margin-top: 60px;
+    }
+    #reason h1{
+        font-size: 22px;
+    }
+    
+    #reason h2{
+        font-size: 13px;
+    }
+    
+    #reason p{
+        font-size: 14px;
+    }
+    
+    #reason .ket-reason h1{
+        font-size: 18px;
+    }
+    
+
+    #reason .ket-reason img{
+        height: 90px;
+    }
+
+    #reason .ket-reason p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    #teknologi {
+        margin-top: 50px;
+    }
+    #teknologi h1{
+        font-size: 22px;
+        line-height: 40px;
+    }
+    
+    #teknologi h2{
+        font-size: 13px;
+    }
+    
+    #teknologi p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    #teknologi .gbr {
+        display: none;
+    }
+    
+    #teknologi .ket-tambahan h2{
+        font-size: 16px;
+    }
+    
+    #teknologi .ket-tambahan p{
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 5px;
+    }
+
+    #teknologi .ket-tambahan img {
+        width: 40px;
+    }
+
+    #download {
+        margin-top: 30px;
+    }
+
+    #download h1{
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    #download .col-5 img {
+        display: none;
+    }
+
+    #FAQ .accordion {
+        margin-top: 70px;
+    }
+    
+    #FAQ {
+        margin-top: 70px;
+    }
+
+    #FAQ .accordion .accordion-item h5{
+        font-size: 15px;
+    }
+
+    #FAQ .accordion .accordion-item p{
+        font-size: 12px
+    }
+    footer p {
+        font-size: 12px;
+    }
+    
+    footer .container .row {
+        padding: 80px 0px 80px 0px
+    }
+    
+    footer {
+        margin-top: 100px;
+    }
+
+    footer li {
+        font-size: 12px;
+    }
+    
+    footer .col-2 img{
+        width: 30px;
+    } 
+}
+
+@media screen and (max-width: 365px) {
+    #hero{
+        margin-top: 20px;
+    }
+    #hero h2{
+        font-size: 10px;
+    }
+    #hero h1 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    #hero p {
+        font-size: 15px;
+        line-height: 18px;
+        break-inside: auto;
+    }
+
+    #hero p br{
+        display: none;
+    }
+
+    #hero .patners .gbr-patners img{
+        width: 40px;
+    }
+    #hero .patners .gbr-patners{
+        padding: 10px 30px ;
+        margin-top: 20px;
+    }
+    #reason{
+        margin-top: 50px;
+    }
+    #reason h1{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+    #reason h2{
+        font-size: 12px;
+    }
+    
+    #reason p{
+        font-size: 15px;
+    }
+    
+    #teknologi {
+        margin-top: 10px;
+    }
+    #teknologi h1{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #teknologi h1 br{
+        display: none;
+    }
+    #teknologi h2{
+        font-size: 13px;
+    }
+    
+    #teknologi p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    #teknologi p br{
+        display: none;
+     }
+    
+
+    #download {
+        margin-top: 20px;
+    }
+
+    #download h2{
+        text-align: center;
+    }
+
+    #download h1{
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+    }
+    #download h1 br{
+        display: none;
+    }
+
+    #download .kolom1{
+        margin-left: 0px;
+    }
+    #download .row img{
+        width: 80px;
+    }
+
+    #FAQ .accordion {
+        margin-top: 20px;
+    }
+    
+    #FAQ {
+        margin-top: 40px;
+    }
+
+    #FAQ .accordion .accordion-item h5{
+        font-size: 15px;
+    }
+
+    #FAQ .accordion .accordion-item p{
+        font-size: 13px
+    }
+
+    #FAQ .header h3 {
+        font-size: 12px;
+    }
+    #FAQ .header h1 {
+        font-size: 18px;
+    }
+    #FAQ .header p {
+        font-size: 14px;
+        line-height: 20px
+    }
+    footer p {
+        font-size: 12px;
+    }
+    
+    footer .container .row {
+        padding: 80px 0px 80px 0px
+    }
+    
+    footer {
+        margin-top: 100px;
+    }
+
+    footer li {
+        font-size: 12px;
+    }
+    
+    footer .col-md-2 img{
+        width: 30px;
+    } 
+}
